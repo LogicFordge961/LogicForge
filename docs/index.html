@@ -1,1 +1,158 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>DEV PORTFOLIO</h2>
+            </div>
+            
+            <ul class="nav-menu">
+                <!-- Home Dropdown -->
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link">Home ▼</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#projects-overview">What My Projects Do</a></li>
+                        <li><a href="#about-me">About Me</a></li>
+                    </ul>
+                </li>
+                
+                <!-- WatchDog Dropdown -->
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link">WatchDog ▼</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="projects/watchdog/download.html">Download</a></li>
+                        <li><a href="projects/watchdog/about.html">About</a></li>
+                        <li><a href="projects/watchdog/docs.html">Documentation</a></li>
+                    </ul>
+                </li>
+                
+                <!-- Support Link -->
+                <li class="nav-item">
+                    <a href="support/" class="nav-link">Support</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Welcome to My Developer Hub</h1>
+                <p>Innovative solutions for modern computing challenges</p>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects-section" id="projects">
+            <div class="container">
+                <h2>My Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-icon">🐕</div>
+                        <h3>WatchDog</h3>
+                        <p>System Intelligence Framework for Windows</p>
+                        <a href="projects/watchdog/" class="btn">Learn More</a>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-icon">🚀</div>
+                        <h3>Coming Soon</h3>
+                        <p>New innovative projects</p>
+                        <a href="#" class="btn disabled">Preview</a>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-icon">🔧</div>
+                        <h3>Project Ideas</h3>
+                        <p>Have suggestions? Let me know!</p>
+                        <a href="support/" class="btn">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq-section" id="faq">
+            <div class="container">
+                <h2>Frequently Asked Questions</h2>
+                <div class="faq-container">
+                    <div class="faq-item">
+                        <h4>What programming languages do you use?</h4>
+                        <p>I primarily work with Python, JavaScript, and C#. I also have experience with Java and Go.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h4>Are your projects free to use?</h4>
+                        <p>Yes! All my projects are open source and completely free to use.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h4>How often do you update your projects?</h4>
+                        <p>I release updates regularly with new features and bug fixes.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about-section" id="about-me">
+            <div class="container">
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <p>I'm a passionate developer focused on creating practical tools that solve real-world problems. With expertise in system programming and AI integration, I build applications that are both powerful and user-friendly.</p>
+                    <p>My goal is to make technology accessible and beneficial for everyone.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Projects</h4>
+                    <ul>
+                        <li><a href="projects/watchdog/">WatchDog</a></li>
+                        <li><a href="#">Project 2</a></li>
+                        <li><a href="#">Project 3</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#about-me">About</a></li>
+                        <li><a href="support/">Support</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li>Email: you@email.com</li>
+                        <li>GitHub: github.com/username</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Developer Portfolio. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
