@@ -1,154 +1,147 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Developer Portfolio</title>
+    <title>Alex Morgan - Software Developer</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <!-- Navigation Bar -->
-    <nav class="navbar">
-        <div class="nav-container">
-            <div class="nav-logo">
-                <h2>DEV PORTFOLIO</h2>
+    <!-- Header -->
+    <header class="main-header">
+        <div class="container">
+            <div class="logo">
+                <h1><i class="fas fa-code"></i> Alex Morgan</h1>
+                <p>Software Developer & Innovator</p>
             </div>
             
-            <ul class="nav-menu">
-                <!-- Home Dropdown -->
-                <li class="nav-item dropdown">
-                    <a href="#" class="nav-link">Home ▼</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#faq">FAQ</a></li>
-                        <li><a href="#projects-overview">What My Projects Do</a></li>
-                        <li><a href="#about-me">About Me</a></li>
-                    </ul>
-                </li>
-                
-                <!-- WatchDog Dropdown -->
-                <li class="nav-item dropdown">
-                    <a href="#" class="nav-link">WatchDog ▼</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="projects/watchdog/download.html">Download</a></li>
-                        <li><a href="projects/watchdog/about.html">About</a></li>
-                        <li><a href="projects/watchdog/docs.html">Documentation</a></li>
-                    </ul>
-                </li>
-                
-                <!-- Support Link -->
-                <li class="nav-item">
-                    <a href="support/" class="nav-link">Support</a>
-                </li>
-            </ul>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="support/" class="btn-primary">Support</a></li>
+                </ul>
+            </nav>
         </div>
-    </nav>
+    </header>
 
-    <!-- Main Content -->
-    <main class="main-content">
-        <!-- Hero Section -->
-        <section class="hero">
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
             <div class="hero-content">
-                <h1>Welcome to My Developer Hub</h1>
-                <p>Innovative solutions for modern computing challenges</p>
+                <h2>Building Innovative Solutions</h2>
+                <p>Transforming ideas into powerful, user-friendly applications that solve real-world problems.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn-primary">View Projects</a>
+                    <a href="support/" class="btn-secondary">Get Support</a>
+                </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- Projects Section -->
-        <section class="projects-section" id="projects">
-            <div class="container">
-                <h2>My Projects</h2>
-                <div class="projects-grid">
-                    <div class="project-card">
-                        <div class="project-icon">🐕</div>
-                        <h3>WatchDog</h3>
-                        <p>System Intelligence Framework for Windows</p>
-                        <a href="projects/watchdog/" class="btn">Learn More</a>
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-shield-alt"></i>
                     </div>
-                    
-                    <div class="project-card">
-                        <div class="project-icon">🚀</div>
-                        <h3>Coming Soon</h3>
-                        <p>New innovative projects</p>
-                        <a href="#" class="btn disabled">Preview</a>
+                    <h3>WatchDog</h3>
+                    <p>System Intelligence Framework for Windows with AI-powered monitoring</p>
+                    <div class="project-actions">
+                        <a href="projects/watchdog/" class="btn-small">Learn More</a>
+                        <a href="projects/watchdog/download.html" class="btn-small btn-success">Download</a>
                     </div>
-                    
-                    <div class="project-card">
-                        <div class="project-icon">🔧</div>
-                        <h3>Project Ideas</h3>
-                        <p>Have suggestions? Let me know!</p>
-                        <a href="support/" class="btn">Contact</a>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3>CloudSync Pro</h3>
+                    <p>Enterprise cloud synchronization solution</p>
+                    <div class="project-actions">
+                        <a href="#" class="btn-small">Learn More</a>
+                        <a href="#" class="btn-small btn-disabled">Coming Soon</a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Mobile Toolkit</h3>
+                    <p>Cross-platform mobile development framework</p>
+                    <div class="project-actions">
+                        <a href="#" class="btn-small">Learn More</a>
+                        <a href="#" class="btn-small btn-disabled">Coming Soon</a>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- FAQ Section -->
-        <section class="faq-section" id="faq">
-            <div class="container">
-                <h2>Frequently Asked Questions</h2>
-                <div class="faq-container">
-                    <div class="faq-item">
-                        <h4>What programming languages do you use?</h4>
-                        <p>I primarily work with Python, JavaScript, and C#. I also have experience with Java and Go.</p>
-                    </div>
-                    <div class="faq-item">
-                        <h4>Are your projects free to use?</h4>
-                        <p>Yes! All my projects are open source and completely free to use.</p>
-                    </div>
-                    <div class="faq-item">
-                        <h4>How often do you update your projects?</h4>
-                        <p>I release updates regularly with new features and bug fixes.</p>
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Hello! I'm Alex Morgan, a passionate software developer with over 5 years of experience creating innovative solutions. I specialize in system programming, AI integration, and user experience design.</p>
+                    <p>My mission is to build applications that are not only powerful and efficient but also intuitive and accessible to everyone.</p>
+                    <div class="skills">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">AI/ML</span>
+                        <span class="skill-tag">System Programming</span>
+                        <span class="skill-tag">UI/UX</span>
                     </div>
                 </div>
-            </div>
-        </section>
-
-        <!-- About Section -->
-        <section class="about-section" id="about-me">
-            <div class="container">
-                <h2>About Me</h2>
-                <div class="about-content">
-                    <p>I'm a passionate developer focused on creating practical tools that solve real-world problems. With expertise in system programming and AI integration, I build applications that are both powerful and user-friendly.</p>
-                    <p>My goal is to make technology accessible and beneficial for everyone.</p>
+                <div class="about-image">
+                    <i class="fas fa-user-circle" style="font-size: 120px; color: #3498db;"></i>
                 </div>
             </div>
-        </section>
-    </main>
+        </div>
+    </section>
 
     <!-- Footer -->
-    <footer class="footer">
+    <footer class="main-footer">
         <div class="container">
-            <div class="footer-content">
+            <div class="footer-grid">
                 <div class="footer-section">
                     <h4>Projects</h4>
                     <ul>
                         <li><a href="projects/watchdog/">WatchDog</a></li>
-                        <li><a href="#">Project 2</a></li>
-                        <li><a href="#">Project 3</a></li>
+                        <li><a href="#">CloudSync Pro</a></li>
+                        <li><a href="#">Mobile Toolkit</a></li>
                     </ul>
                 </div>
                 
                 <div class="footer-section">
                     <h4>Resources</h4>
                     <ul>
-                        <li><a href="#faq">FAQ</a></li>
-                        <li><a href="#about-me">About</a></li>
+                        <li><a href="#about">About</a></li>
                         <li><a href="support/">Support</a></li>
+                        <li><a href="#">Documentation</a></li>
                     </ul>
                 </div>
                 
                 <div class="footer-section">
                     <h4>Contact</h4>
                     <ul>
-                        <li>Email: you@email.com</li>
-                        <li>GitHub: github.com/username</li>
+                        <li><i class="fas fa-envelope"></i> alex@example.com</li>
+                        <li><i class="fab fa-github"></i> github.com/alexmorgan</li>
+                        <li><i class="fab fa-linkedin"></i> linkedin.com/in/alexmorgan</li>
                     </ul>
                 </div>
             </div>
             
             <div class="footer-bottom">
-                <p>&copy; 2024 Developer Portfolio. All rights reserved.</p>
+                <p>&copy; 2024 Alex Morgan. All rights reserved.</p>
             </div>
         </div>
     </footer>
