@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f7fb;
+  color: #333;
+}
+
+header {
+  background: #004aad; /* Professional blue */
+  color: #fff;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 { margin: 0; }
+header nav a {
+  color: #fff;
+  margin-left: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header nav a:hover { text-decoration: underline; }
+
+section { padding: 30px; }
+.project-card { background: #fff; padding: 15px; margin-bottom: 15px; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+.project-card a { text-decoration: none; color: #004aad; font-weight: bold; }
+
+.faq-item { margin-bottom: 10px; }
+.faq-question { cursor: pointer; background: #eee; border: none; padding: 10px; width: 100%; text-align: left; }
+.faq-answer { display: none; margin-left: 10px; padding: 5px; background: #f9f9f9; border-left: 3px solid #004aad; }
+
+#download-btn { display: inline-block; margin-top: 15px; padding: 10px 20px; background: #004aad; color: #fff; text-decoration: none; border-radius: 5px; }
+#download-btn:hover { background: #00337a; }
+
+footer { background: #004aad; color: #fff; text-align: center; padding: 15px; margin-top: 30px; }
